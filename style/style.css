@@ -1,0 +1,190 @@
+/* Default styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1400px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Main content */
+
+main {
+    padding-top: 100px;
+}
+
+.title {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+    
+}
+
+.line {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 64px;
+    height: 1px;
+    background-color: #E72424;
+    border: none;
+}
+
+.text {
+    padding-bottom: 60px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+
+/* Cards content */
+
+.cards {
+    padding-bottom: 108px;
+    padding-top: 7px;
+}
+.card {
+    display: inline-block;
+    width: 382px;
+    padding: 0 16px;   
+}
+
+.card-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: 1px solid #E72424;
+}
+
+.icon--lamp {
+    background: url(../img/lamp.png) no-repeat center;
+}
+
+.icon--keyboard {
+    background: url(../img/keyboard.png) no-repeat center;
+}
+
+.icon--lightning {
+    background: url(../img/lightning.png) no-repeat center;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+}
+
+.card-text {
+    padding-top: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+/* Download content */
+
+.download {
+    padding: 76px 0 38px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../img/city_background.jpg)  no-repeat center;
+    
+}
+
+.download--title {
+    margin-bottom: 48px;
+    color: #fff;
+}
+
+.download--line {
+    background-color: #fff;
+}
+
+.download--text {
+    padding-bottom: 30px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.download-button {
+    width: 135px;
+    height: 42px;
+    display: block;
+    padding: 11px 26px;
+    margin: 0 auto;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    border: 1px solid #FFFFFF;
+  
+}
+
+/* Footer content */
+
+footer {
+    padding: 30px 0 15px 0;
+    background-color: #000;
+    color:#fff;
+}
+
+.social-media-list {
+    margin: 0 auto;
+    list-style: none;
+}
+
+.socail-media-list-item {
+    width: 35px;
+    height: 25px;
+    display: inline-block;
+    background: url(../img/social_media.png) no-repeat;   
+}
+
+.social-media-link {
+    text-decoration: none;
+}
+
+.media--twitter {
+    background-position: -44px 0;
+}
+
+.media--google--plus {
+    background-position: -91px 0;
+}
+
+.media--pinterest {
+    background-position: -139px 0;
+}
+
+.media--instagram {
+    background-position: -189px 0;
+}
+
+.media--stumble--upon {
+    background-position: -241px 0;
+}
+
+.media--rss {
+    background-position: -292px 0;
+}
+
+.footer-text {
+    padding-top: 18px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
